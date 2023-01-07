@@ -11,7 +11,7 @@ class App extends Component {
     super();
 
     this.state = JSON.parse(window.localStorage.getItem('state')) || {
-      count: 8,
+      count: 10,
     };
 
     console.log(this.state.count);
