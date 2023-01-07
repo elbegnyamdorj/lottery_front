@@ -19,7 +19,7 @@ export default class CardList extends Component {
       return (
         <div style={{ color: 'black' }}>
           <h1>Ялагч</h1>
-          <h3>Нэр:{this.props.lottery_list[0]['name']}</h3>
+          <h3>Нэр: {this.props.lottery_list[0]['name']}</h3>
           <h3>Машины дугаар: {this.props.lottery_list[0]['plate_number']}</h3>
           <h3>
             Сугалааны дугаар: {this.props.lottery_list[0]['lottery_number']}
