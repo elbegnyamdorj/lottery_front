@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+.card-list {
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.number-of-lottery {
+    font-weight: bolder;
+}
+
+.lottery-num {
+    font-size: 30px;
+    font-family: 'Nunito Sans';
+    color: white !important;
+}
