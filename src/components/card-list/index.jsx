@@ -17,7 +17,7 @@ export default class CardList extends Component {
       var sec = Date.parse(this.props.lottery_list[0]['date']);
       var date = new Date(sec);
       return (
-        <div style={{ color: 'black' }}>
+        <div style={{ color: 'white' }}>
           <h1>Ялагч</h1>
           <h3>Нэр: {this.props.lottery_list[0]['name']}</h3>
           <h3>Машины дугаар: {this.props.lottery_list[0]['plate_number']}</h3>
